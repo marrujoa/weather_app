@@ -2,4 +2,5 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">weather_app.Droid</string>
+  <string name="getCurrentLoc">Get Current Location</string>
 </resources>
