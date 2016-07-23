@@ -10,6 +10,13 @@ using Android.Content;
 using Android.Views;
 using Android.Runtime;
 
+/* Code for the most part is used for learning purposes here. 
+ * Building a simple Weather app for Android to play with
+ * layouts, fragments, and navigation tools.
+ * 
+ * More functionality with Camera, Users, and UI Changes to be added.
+ */
+
 namespace weather_app.Droid
 {
     [Activity(Label = "Weather App",

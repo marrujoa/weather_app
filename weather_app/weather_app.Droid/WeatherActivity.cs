@@ -21,13 +21,13 @@ namespace weather_app.Droid
             SetContentView(Resource.Layout.Weather);
             // Create your application here
             Button button = FindViewById<Button>(Resource.Id.weatherBtn);
-            Button currentLoc = FindViewById<Button>(Resource.Id.buttonCurrentLoc);
+            //Button currentLoc = FindViewById<Button>(Resource.Id.buttonCurrentLoc);
 
             button.Click += Button_Click;
-            currentLoc.Click += (sender, e) => {
-                Intent intent = new Intent(this, typeof(Locations));
-                StartActivity(intent);
-            };
+            //currentLoc.Click += (sender, e) => {
+            //    Intent intent = new Intent(this, typeof(Locations));
+            //    StartActivity(intent);
+            //};
         }
 
         private async void Button_Click(object sender, EventArgs e)

@@ -145,11 +145,11 @@
         android:id="@+id/sunsetText"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp" />
-    <Button
+    <!-- <Button
         android:text="@string/getCurrentLoc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:id="@+id/buttonCurrentLoc"
-        android:enabled="true" />
+        android:enabled="true" /> -->
 </LinearLayout>

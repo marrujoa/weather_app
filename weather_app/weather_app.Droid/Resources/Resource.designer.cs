@@ -69,9 +69,6 @@ namespace weather_app.Droid
 			// aapt resource value: 0x7f050006
 			public const int address_text = 2131034118;
 			
-			// aapt resource value: 0x7f05001d
-			public const int buttonCurrentLoc = 2131034141;
-			
 			// aapt resource value: 0x7f050008
 			public const int fragmentContainer = 2131034120;
 			
